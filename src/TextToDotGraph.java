@@ -16,6 +16,7 @@ public class TextToDotGraph {
     private boolean stopRandomWalk = false;  //用于控制随机游走
     private Thread stopListenerThread;
 
+
     // 读取文本文件并构建有向图
     public void readTxt(String txtFile) {
         try {
